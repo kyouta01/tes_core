@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Kuis Dokkai</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="pink-bg">
+  <main class="quiz-card">
+    <header class="quiz-header">
+      <a class="back-link" href="tema.html">⬅ Tema</a>
+      <h2 id="temaTitle">Dokkai</h2>
+    </header>
+
+    <section class="story" id="storyBox"></section>
+
+    <section id="questionBox" class="question-area">
+      <div id="qIndex" class="q-index"></div>
+      <p id="qText" class="q-text"></p>
+      <div id="options" class="options"></div>
+    </section>
+
+    <footer class="quiz-footer">
+      <div class="player-row">
+        <label for="playerName">Nama:</label>
+        <input id="playerName" type="text" placeholder="Masukkan nama..." />
+      </div>
+      <div class="controls">
+        <button id="prevBtn" class="btn ghost">Sebelumnya</button>
+        <button id="nextBtn" class="btn">Jawab / Lanjut</button>
+      </div>
+    </footer>
+  </main>
+
+  <script src="assets/js/dokkai.js"></script>
+</body>
+</html>
